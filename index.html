@@ -1,0 +1,87 @@
+<!doctype HTML>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--********************* Font Awasome Link *********************-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<!--********************* CSS Link *********************-->
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+<!----------------------- Switch ----------------------->
+        <div class="box">
+            <label>
+                <input type="checkbox" id="switch" onclick="switchFunction()">
+                <span></span>
+            </label>
+        </div>
+        <div class="container">
+<!----------------------- Registration ----------------------->
+            <form id="registration">
+                <h2>Registration</h2>
+                <div class="form_control">
+                    <label>UserName</label>
+                    <input type="text" placeholder="Enter your User Name" id="username">
+                    <i class="fa-sharp fa-solid fa-circle-check"></i>
+                    <i class="fa-solid fa-circle-exclamation"></i>
+                    <small></small>
+                </div>
+                <div class="form_control">
+                    <label>E-mail</label>
+                    <input type="email" placeholder="Enter your E-mail" id="email">
+                    <i class="fa-sharp fa-solid fa-circle-check"></i>
+                    <i class="fa-solid fa-circle-exclamation"></i>
+                    <small></small>
+                </div>
+                <div class="form_control">
+                    <label>Phone Number</label>
+                    <input type="number" placeholder="Enter your Phone Number" id="pnumber">
+                    <i class="fa-sharp fa-solid fa-circle-check"></i>
+                    <i class="fa-solid fa-circle-exclamation"></i>
+                    <small></small>
+                </div>
+                <div class="form_control">
+                    <label>PassWord</label>
+                    <input type="password" placeholder="Enter your PassWord" id="password">
+                    <i class="fa-sharp fa-solid fa-circle-check"></i>
+                    <i class="fa-solid fa-circle-exclamation"></i>
+                    <small></small>
+                </div>
+                <div class="form_control">
+                    <label>Confrim PassWord</label>
+                    <input type="password" placeholder="Enter your Confrim PassWord" id="conpassword">
+                    <i class="fa-sharp fa-solid fa-circle-check"></i>
+                    <i class="fa-solid fa-circle-exclamation"></i>
+                    <small></small>
+                </div>
+                <button>Registration</button>
+            </form>
+<!----------------------- Log In ----------------------->
+            <form id="logIn">
+                <h2>Log In</h2>
+                <div class="form_control">
+                    <label>UserName</label>
+                    <input type="text" placeholder="Enter your User Name" id="lusername">
+                    <i class="fa-sharp fa-solid fa-circle-check"></i>
+                    <i class="fa-solid fa-circle-exclamation"></i>
+                    <small>zdxgfsdfgs</small>
+                </div>
+                <div class="form_control">
+                    <label>PassWord</label>
+                    <input type="password" placeholder="Enter your PassWord" id="lpassword">
+                    <i class="fa-sharp fa-solid fa-circle-check"></i>
+                    <i class="fa-solid fa-circle-exclamation"></i>
+                    <small></small>
+                </div>
+                <button>Log In</button>
+                
+            </form>
+        </div>
+<!--********************* Sweet Alert Script Link *********************-->
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+        
+<!--********************* Page Script Link *********************-->
+        <script src="script.js"></script>
+    </body>
+</html>
